@@ -48,4 +48,8 @@ ScrollReveal().reveal(".header__content .socials", {
     ...scrollRevealOption,
     delay: 2000,
 });
+ScrollReveal().reveal(".popular__card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
 
